@@ -7,7 +7,8 @@ module.exports = {
     '<rootDir>/examples',
     '<rootDir>/packages/query-typegoose',
     '<rootDir>/packages/query-sequelize',
-    '<rootDir>/packages/query-mongoose'
+    '<rootDir>/packages/query-mongoose',
+    '<rootDir>/packages/query-mikro-orm'
   ],
   testTimeout: 10000,
   collectCoverageFrom: ['packages/**/*.ts', '!**/__tests__/**', '!**/dist/**', '!**/node_modules/**'],

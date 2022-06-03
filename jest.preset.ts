@@ -20,6 +20,7 @@ module.exports = {
     '@ptc-org/nestjs-query-sequelize': process.cwd() + '/packages/query-sequelize/src',
     '@ptc-org/nestjs-query-typegoose': process.cwd() + '/packages/query-typegoose/src',
     '@ptc-org/nestjs-query-mongoose': process.cwd() + '/packages/query-mongoose/src',
+    '@ptc-org/nestjs-query-mikro-orm': process.cwd() + '/packages/query-mikro-orm/src',
   },
   testEnvironment: 'node',
   setupFilesAfterEnv: ['jest-extended'],

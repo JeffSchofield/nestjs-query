@@ -1,0 +1,40 @@
+{
+  "name": "@ptc-org/nestjs-query-mikro-orm",
+  "version": "1.0.0-alpha.1",
+  "description": "Mikro ORM adapter for @ptc-org/nestjs-query-core",
+  "author": "Jeff Schofield <jeff@jeffschofield.com>",
+  "homepage": "https://github.com/tripss/nestjs-query#readme",
+  "license": "MIT",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "directories": {
+    "lib": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src/**"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "lodash.filter": "^4.6.0",
+    "lodash.merge": "^4.6.2",
+    "lodash.omit": "^4.5.0"
+  },
+  "peerDependencies": {
+    "@mikro-orm/core": "^5.1.0",
+    "@mikro-orm/nestjs": "^5.0.0",
+    "@nestjs/common": "^8.0.4",
+    "@nestjs/typeorm": "^8.0.0",
+    "class-transformer": "^0.2.3 || 0.3.1 || 0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tripss/nestjs-query.git",
+    "directory": "packages/query-typeorm"
+  },
+  "bugs": {
+    "url": "https://github.com/tripss/nestjs-query/issues"
+  }
+}

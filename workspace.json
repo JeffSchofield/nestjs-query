@@ -8,6 +8,7 @@
     "query-mongoose": "packages/query-mongoose",
     "query-sequelize": "packages/query-sequelize",
     "query-typegoose": "packages/query-typegoose",
-    "query-typeorm": "packages/query-typeorm"
+    "query-typeorm": "packages/query-typeorm",
+    "query-mikro-orm": "packages/query-mikro-orm"
   }
 }

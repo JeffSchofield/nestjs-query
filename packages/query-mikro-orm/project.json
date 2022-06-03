@@ -1,0 +1,34 @@
+{
+  "sourceRoot": "packages/query-mikro-orm/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/query-mikro-orm",
+        "tsConfig": "packages/query-mikro-orm/tsconfig.lib.json",
+        "packageJson": "packages/query-mikro-orm/package.json",
+        "main": "packages/query-mikro-orm/src/index.ts",
+        "assets": ["packages/query-mikro-orm/*.md"]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/query-mikro-orm/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/packages/query-mikro-orm"],
+      "options": {
+        "jestConfig": "packages/query-mikro-orm/jest.config.ts",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["core"]
+}
